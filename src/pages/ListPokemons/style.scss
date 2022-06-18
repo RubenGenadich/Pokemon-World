@@ -1,0 +1,49 @@
+.pokemon-oblast_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  padding: 5px;
+  margin: 20px 5px;
+  background-image: radial-gradient(
+    circle,
+    #1b3762,
+    #3f487c,
+    #645a96,
+    #8a6bad,
+    #b37cc2
+  );
+  border-radius: 4px;
+  text-align: center;
+  height: 123px;
+}
+
+.pokemon-oblast__img {
+  display: flex;
+  #v2 {
+    margin-left: 30px;
+  }
+}
+
+.pokemon-oblast__img img {
+  width: 96px;
+  height: 96px;
+}
+
+#v3 {
+  margin-top: 20px;
+  width: 100px;
+}
+
+.react-loading-skeleton {
+  width: 200px;
+  height: 200px;
+}
+
+.pokemon-oblast_card:hover {
+  transition: 0.5s;
+  transform: translate(-10px, -2%);
+  background: radial-gradient(circle, #1b3762 0%, #645a96 50%, #bd594d 100%);
+  box-shadow: 7px 7px 12px rgb(255, 255, 255);
+}

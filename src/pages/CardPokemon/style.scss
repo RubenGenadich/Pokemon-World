@@ -1,0 +1,48 @@
+.InfoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.InfoCard-Pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 200px;
+  color: gold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-image: radial-gradient(
+    circle,
+    #1b3762,
+    #3f487c,
+    #645a96,
+    #8a6bad,
+    #b37cc2
+  );
+  box-shadow: 0px 0px 9px 7px #8e6daf;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.InfoCard-Pokemon-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.InfoCard-Pokemon-img img {
+  width: 96px;
+  height: 96px;
+}
+
+.InfoCard-Pokemon-info {
+  display: flex;
+  flex-direction: column;
+}
+.InfoCard-Pokemon-info p {
+  margin: 0 0 10px 0;
+}

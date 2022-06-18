@@ -1,0 +1,12 @@
+.pokemon-oblast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-column-gap: 25px;
+  margin-bottom: 50px;
+}
+
+.pokemon-oblast::after {
+  content: '';
+  width: 31.4%;
+}

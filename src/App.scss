@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background: url('./img/Pokemon-Go-Blue-Background-1.jpg') no-repeat center
+    center fixed;
+  background-size: cover;
+}
+
+.App {
+  width: 80vw;
+  min-height: calc(100vh - 40px);
+  margin: 20px auto;
+  padding: 40px;
+  display: flex;
+  border-radius: 20px;
+}

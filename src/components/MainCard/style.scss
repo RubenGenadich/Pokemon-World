@@ -1,0 +1,36 @@
+.PaginationCard {
+  width: 100%;
+}
+
+.PaginationCard_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  label {
+    color: rgba(164, 201, 201, 0.651);
+  }
+
+  .PaginationCard_header__base-input {
+    height: 30px;
+    width: 240px;
+    margin-left: 10px;
+    padding-left: 5px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+  }
+
+  .PaginationCard_header__pagination {
+    background: rgba(164, 201, 201, 0.651);
+    border-radius: 25px;
+  }
+
+  .css-1n7gpw1-MuiSkeleton-root {
+    border-radius: 4%;
+    background: rgba(164, 201, 201, 0.651);
+    width: 20%;
+    height: 50px;
+    margin-right: 20px;
+  }
+}
